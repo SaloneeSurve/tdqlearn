@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdqlearn"
+version = "0.1.0"
+description = "Your project description"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}   # or your license
+authors = [{name = "Salonee S", email = "your_email@example.com"}]
+keywords = ["reinforcement-learning", "DQN", "RL"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy",
+    "matplotlib",
+    "seaborn"
+]
+
+[project.urls]
+Homepage = "https://github.com/SaloneeSurve/tdqlearn"
