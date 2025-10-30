@@ -1,4 +1,3 @@
-# tdqlearn/__init__.py
 """
 TDQLearn: A simple Deep Q-Network (DQN) implementation for Temporal-Difference Learning.
 """
