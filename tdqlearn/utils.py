@@ -1,4 +1,3 @@
-# tdqlearn/utils.py
 import torch
 import matplotlib.pyplot as plt
 
